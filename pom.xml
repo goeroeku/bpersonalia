@@ -33,6 +33,16 @@
         <role>developer</role>
       </roles>
     </developer>
+    
+    <developer>
+      <id>Code21k</id>
+      <name>Christian Kumala</name>
+      <email>c21k.mail@gmail.com</email>
+      <url>https://www.facebook.com/Christian21K</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
   </developers>
   
   <properties>
