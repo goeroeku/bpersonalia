@@ -33,6 +33,13 @@
         <role>developer</role>
       </roles>
     </developer>
+    <developer>
+        <id>azism</id>
+        <name>Azis Muttaqin</name>
+        <email>kakek.anis@gmail.com</email>
+        <roles>
+      </roles>
+    </developer>
   </developers>
   
   <properties>
