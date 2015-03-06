@@ -29,5 +29,10 @@
 	<!-- Enable default servlet handler -->
 	<mvc:default-servlet-handler />
 	
+	<!-- List simple static view controller -->
 	<mvc:view-controller path="/" view-name="home" />
+	<mvc:view-controller path="/not-found" view-name="not-found" status-code="404" />
+	<mvc:view-controller path="/unauthorized" view-name="unauthorized" status-code="401" />
+	<mvc:view-controller path="/access-denied" view-name="access-denied" status-code="403" />
+	<mvc:view-controller path="/server-error" view-name="server-error" status-code="500" />
 </beans>
