@@ -59,6 +59,15 @@
         <role>developer</role>
       </roles>
     </developer>
+    <developer>
+      <id>aginanjar</id>
+      <name>Ahmad Ginanjar</name>
+      <email>ahmad.ginanjar.m@gmail.com</email>
+      <url>https://www.facebook.com/aginanjar</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
   </developers>
   
   <properties>
