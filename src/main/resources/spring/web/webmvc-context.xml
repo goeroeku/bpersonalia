@@ -12,8 +12,7 @@
 	(@Component, @Repository, @Service, @Controller) inside "sample" package 
 	will be picked up by spring container and registered as beans.
 	-->
-	<context:component-scan base-package="org.bareng.hr.web.controller">
-	</context:component-scan>
+	<context:component-scan base-package="org.bareng.hr.web.controller" />
 	
 	<!--
 	Enable use annotation on mapping and handling request etc.
@@ -23,7 +22,7 @@
 	Configuration for view resolver.
 	-->
 	<mvc:view-resolvers>
-		<mvc:jsp prefix="WEB-INF/views/" suffix=".jsp"/>
+		<mvc:jsp prefix="/WEB-INF/views/" suffix=".jsp" />
 	</mvc:view-resolvers>
 	
 	<!-- Enable default servlet handler -->
