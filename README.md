@@ -25,8 +25,6 @@ alpha4 :
 10. Onboarding
 11. terminating
 
-The project is built with Java EE programming model, using JSF Framework as the web interface and PostgreSQL Server as the DB Engine.
-
-
-all are still proposal/draft, subject to other member proposal/discussion
-
+Software stack using 
+* Spring MVC
+* Persistance Layer - MyBatis  (mybatis.org )
